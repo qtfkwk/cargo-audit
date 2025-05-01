@@ -18,7 +18,7 @@ examples.
 
 GitHub Actions:
 
-- `check`: Checks for upstream release of [`cargo-audit`]
+- [`check`]: Checks for upstream release of [`cargo-audit`]
 
 See also:
 
@@ -26,4 +26,5 @@ See also:
 - [Docker Hub](https://hub.docker.com/r/qtfk/cargo-audit)
 
 [`cargo-audit`]: https://crates.io/crates/cargo-audit
+[`check`]: https://github.com/qtfkwk/cargo-audit/blob/main/.github/workflows/check.yml
 
