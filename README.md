@@ -1,5 +1,4 @@
-Docker image with [`cargo-audit`](https://crates.io/crates/cargo-audit)
-for use by GitHub Actions
+Docker image with [`cargo-audit`] for use by GitHub Actions
 
 Runs `cargo audit` by default.
 
@@ -17,6 +16,14 @@ examples.
 [check]: https://github.com/qtfkwk/github-actions-rust-template/blob/main/.github/workflows/check.yml#L19
 [publish]: https://github.com/qtfkwk/github-actions-rust-template/blob/main/.github/workflows/publish.yml#L19
 
+GitHub Actions:
+
+- `check`: Checks for upstream release of [`cargo-audit`]
+
+See also:
+
 - [GitHub](https://github.com/qtfkwk/cargo-audit)
 - [Docker Hub](https://hub.docker.com/r/qtfk/cargo-audit)
+
+[`cargo-audit`]: https://crates.io/crates/cargo-audit
 
